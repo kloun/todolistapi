@@ -14,5 +14,7 @@ class Task extends Model
         ];
     }
     protected $guarded = [];
-    
+    protected $dateFormat = 'Y-m-d H:i:s';
+
+
 }

@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string("title", 250)->nullable(false);
             $table->text("description");
-            $table->string("status")->default(App\Enums\TaskStatus::TASK_NEW->valueu);
+            $table->string("status")->default(App\Enums\TaskStatus::TASK_NEW->value);
             $table->timestamps();
         });
     }
